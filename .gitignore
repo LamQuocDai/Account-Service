@@ -32,4 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 
-src/main/resources/application.properties
+# Ignore all properties
+*.properties
+
+# Nhưng vẫn giữ file template
+!src/main/resources/application-example.properties
